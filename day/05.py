@@ -7,7 +7,6 @@ def part1(text):
     for p in points:
         a = [int(j) for j in p[0].split(",")]
         b = [int(j) for j in p[1].split(",")]
-        # print(xs, ys)
         if a[0] == b[0]:
             ys = sorted([a[1], b[1]])
             for y in range(ys[0], ys[1] + 1):
@@ -24,7 +23,6 @@ def part2(text):
     for p in points:
         a = [int(j) for j in p[0].split(",")]
         b = [int(j) for j in p[1].split(",")]
-        # print(xs, ys)
         if a[0] == b[0]:
             ys = sorted([a[1], b[1]])
             for y in range(ys[0], ys[1] + 1):
