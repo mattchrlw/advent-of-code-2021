@@ -1,6 +1,6 @@
 # advent-of-code-2021
 
-Code in `day/`, input in `test/`. Stats as of 2021/12/05:
+Code in `day/`, input in `test/`. Stats:
 
 ```
       --------Part 1--------   --------Part 2--------
